@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.descuento{
+    background-color:aquamarine ;
+    position:absolute;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.heroes{
+    background-color:  #00669F;
+    position: absolute;
+    width: 1024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+
+}
+.cajabatman{
+    background-color: #F3F3F3;
+    position: absolute ;
+    width: 300px;
+    height: 529px;
+    top: 292px;
+    right: 692px;
+    left: 32px;
+    
+
+}
+.carabatman1{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 122px;
+    top: 421px;
+    background-color: #F3F3F3;
+    
+
+
+}
+.baticueva1{
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+}
+.titulo1{
+    font-family: raboto;
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    left: 121px;
+    top: 559px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.corazon1{
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    top: 308.88px;
+    left: 53px;
+
+}
+.textobatma {
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 48px;
+    top: 604px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+.pie1{
+    position: absolute;
+    padding:15px 35.78px 15.52px 37px;
+    width: 128.78px;
+    height: 48.52px;
+    left: 117px;
+    top: 754px;
+    font-size:  15px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color:#00669F;
+    color: #fff9f9;
+
+
+
+}
+.cajaharley{
+    position: absolute ;
+    width: 300px;
+    height: 529px;
+    top: 293px;
+    left: 362px;
+    background-color: #F3F3F3;
+
+}
+
+.rosa1{
+position: absolute;
+    width: 300px;
+    height: 193px;
+    top: 293px;
+    left: 362px;
+}
+
+.caraharley{
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    top: 419px;
+   left: 451px;
+
+}
+.corazon2{
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    top: 308.88px;
+    left: 383px;
+    
+}
+.titulo2{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    top: 559px;
+    left: 427px;
+    right: 426px; ;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.textoharley{
+    position: absolute;
+    height: 113px;
+    width: 267px;
+    top: 604px;
+    left: 378px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.pie2{
+    position: absolute;
+    padding:15px 35.78px 15.52px 37px;
+    width: 128.78px;
+    height: 48.52px;
+    left: 447px;
+    top: 754px;
+    font-size:  15px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color:#00669F;
+    color: #fff9f9;
+
+}
+.batman2{
+    position: absolute;
+    width: 300px;
+    height: 529px;
+    background-color: #F3F3F3;
+    top: 294px;
+    left: 692px;
+    }
+.carabatman3{
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    top: 420px;
+    left: 781px;
+
+}
+.baticueva3{
+    position: absolute;
+    width: 300px ;
+    height: 193px;
+    top: 294px;
+    left: 692px;
+}
+.titulo3{
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    top: 560px;
+    left: 781px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+
+}
+.texto3{
+    position: absolute;
+    height: 113px;
+    width: 267px;
+    top: 604px;
+    left: 708px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.corazon3{
+        position: absolute;
+        width: 30px;
+        height: 26.25px;
+        top: 308.88px;
+        left: 713px;
+}
+.pie3{
+    position: absolute;
+    padding:15px 35.78px 15.52px 37px;
+    width: 128.78px;
+    height: 48.52px;
+    left: 777px;
+    top: 754px;
+    font-size:  15px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color:#00669F;
+    color: #fff9f9;
+}
+footer{
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background-color: #00669F;
+}
+.textofooter{
+    color: #fff9f9;
+    position: absolute;
+    top: 16px;
+    right: 671px;
+    bottom: 16px;
+    left: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+ 
+}
