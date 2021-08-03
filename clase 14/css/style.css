@@ -1,0 +1,86 @@
+*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.descuentos{
+    background-color:  #D1891C;
+    font-weight: normal;
+    padding-left: 1rem;
+}
+.super{
+    color: white;
+    background-color:#00669F ;
+    font-weight: normal;
+    padding-left: 1.5rem;
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 0.25);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    border:3px red solid;
+
+}
+
+.card{
+    margin: 1rem;
+    text-align: center;
+    border: solid green 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 35rem;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: contain;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.batman{
+    background-image: url(../img/baticueva.png);
+}
+.mujer{
+    background-image: url(../img/fondogaldot.png);
+}
+.superman{
+    background-image: url(../img/superman.png);
+}
+.harley{
+    background-image: url(../img/fondorosa.png);
+}
+.corazon{
+    position: absolute;
+    height: 2REM;
+    width: 2rem;
+    top: 10px;
+    left: 1.2rem;
+    right: 1rem;
+
+}
+.cara{
+    border-radius: 50%;
+    width: 50%;
+    margin: 30% 0 -10% 0;
+}
+.boton{
+    width: 133px ;
+    height: 42px;
+    background-color: #00669F;
+    color: #f3f3f3;
+    padding: 15px;
+
+}
+.card h3{
+    font-size: 2rem;
+
+}
+.texto{
+    font-size: 0.9rem;
+    padding: 0.5rem;
+
+    width: 90%;
+    height: 40% ;
+}
