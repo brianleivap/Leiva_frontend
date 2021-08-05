@@ -1,0 +1,111 @@
+.grandesofertas {
+    background-color: black;
+    color: white;
+}
+.barragrande {
+    background-color: orange;
+
+}
+body{
+background-image: url(../img/img1.png);
+background-repeat: no-repeat;
+background-size:contain;
+background-position-x: center;
+background-position-y: 300px;
+}
+.placer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #3C2313;
+    font-size: xx-large;
+
+}
+.endescuento{
+    text-align: center;
+
+}
+
+/* aaaa1 son las categorias */
+.aaaa1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: small;
+}
+/* un anuncio en el banner*/
+.endescuento{
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+/* aaaa es el pie de las 3 imagenes*/
+.aaaa{
+    font-family: 'Roboto', sans-serif;
+    background: #FBFAF6;
+
+}
+.bifes{
+    background: #FBFAF6;
+}
+.comidade{
+    background: #FBFAF6;
+}
+.huesito{
+    background: #FBFAF6;
+}
+/* aaaa2 3 palabras de abajo serpadas por un - */
+.aaaa2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+}
+.precio {
+    background: #FBFAF6;;
+    color: #F0A83E;;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* COMEDEROS! */
+.poneteenelmedio {
+    text-align: center;
+}
+.destacados {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    ;
+}
+.urlcomederos {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0A83E;
+    text-align: center;
+}
+/* UN PLACER TENERTE AQUI*/
+.PLACER{
+    background-color: white;
+    color: grey;
+    text-align: left;
+}
+
+footer{
+    background-color: #3C2313;
+
+}
+.footergrande {
+    color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+.footermenor {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.ultimorenglon{
+    background-color: #F0A83E;
+    color: #FBFAF6;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    
+}
