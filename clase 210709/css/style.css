@@ -1,0 +1,108 @@
+.grandesofertas {
+    background-color: black;
+    color: white;
+}
+.barragrande {
+    background-color: orange;
+
+}
+body{
+background-image: url(../img/img1.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position-x: center;
+background-position-y: 300px;
+}
+.placer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #3C2313;
+    font-size: xx-large;
+
+}
+.endescuento{
+    text-align: center;
+
+}
+.destacados{
+    font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0em;
+
+    ;
+
+}
+/* aaaa1 son las categorias */
+.aaaa1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: small;
+}
+/* un anuncio en el banner*/
+.endescuento{
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+/* aaaa es el pie de las 3 imagenes*/
+.aaaa{
+    font-family: 'Roboto', sans-serif;
+    background: #FBFAF6;
+
+}
+.bifes{
+    background: #FBFAF6;
+}
+.comidade{
+    background: #FBFAF6;
+}
+.huesito{
+    background: #FBFAF6;
+}
+/* aaaa2 3 palabras de abajo serpadas por un - */
+.aaaa2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+}
+.precio {
+    background: #FBFAF6;;
+    color: #F0A83E;;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* COMEDEROS! */
+.poneteenelmedioforro {
+    text-align: center;
+}
+.urlcomederos {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0A83E;
+    text-align: center;
+}
+/* UN PLACER TENERTE AQUI*/
+.PLACER{
+    background-color: white;
+    color: grey;
+    text-align: left;
+}
+.destacados {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+}
+footer{
+    background-color: #3C2313;
+
+}
+.footergrande {
+    color: #E5E5E5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footermenor {
+    color: grey;
+}
