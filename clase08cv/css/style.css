@@ -1,0 +1,63 @@
+header{
+    background-color: blueviolet;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-position: center;
+    }
+
+.fondo {
+    background-color: red ;
+    text-align: center;
+}
+.fotocarnet{
+    text-align: left;
+    background-color: fffff;
+
+
+}
+.datos1{
+    background-color: salmon;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+
+}
+.formacionacademica{
+    background-color: salmon;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.experiencia{
+    background-color: salmon;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.back{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+}
+.middle{
+    text-align: center;
+    background-color: salmon;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texti{ 
+    font-family: 'Mukta', sans-serif;
+    background-color: grey;
+}
+.fa-brands{}
+    text-align: center;
+}
+
+
+.titulo{
+    font-weight: 1000;
+}
+.fab fa-instagram-square{
+    text-align: center;
+}
