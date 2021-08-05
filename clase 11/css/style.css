@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+h1{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 100px;
+
+}
+.logo{
+    height: 80px;
+    width: 234px;
+    margin: 4px 0 0 20px;
+}
+.listaarriba{
+    width: 284px;
+    height: 19px;
+    display: flex;
+    margin-right: 42px;
+}
+.menu{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 13px;
+    color: white;
+}
+main{
+    display: flex;
+    height:420px ;
+    width: 1024px;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.section{
+    display: flex;
+    width: 493px;
+    height: 350px;
+    margin-top: 35px;
+    
+}
+
+.amarillo{
+    background-image: url(../img/amarillo.png);
+    background-size: contain;
+}
+.envio{
+   
+    margin: 20px 0 0 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+.blanco{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+.uno{
+    width:490px ;
+    height: 90px ;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.podio{
+    
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #FC200C;
+}
+.dos{
+    width: 385px;
+    height: 250px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+}
+.ordenada{
+    font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin:10px ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    height: 150px;
+    background-color: black;
+    align-items: center;
+}
+.listados{
+    width: 78px;
+    height: 112px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+    
+
+}
+.fondo{
+    color: white;
+    width: 44px ;
+    height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+.imagendelbottom{
+    width: 212px;
+    height: 80px;
+    margin-right: 42px;
+}
