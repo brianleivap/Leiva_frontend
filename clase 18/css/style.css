@@ -1,0 +1,636 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    height:20px ;
+    align-items: center;
+}
+.grandes{
+    color: white;
+    font-size: 0.5rem;
+    margin-left:  90px;
+}
+.espa{
+    color: white;
+    font-size: 8px;
+    margin-right: 50px;
+}
+h1{
+    display: flex;
+    background-color: #F0A83E;;
+    width: 1024px;
+    height: 62px ;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.logoarriba{
+    width:  166px;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    width: 343px;
+    height: 15px;
+}
+.lista {
+    font-size: 13px;
+    margin: 15px 10px 10px 10px;
+    padding: 5px;
+    color: white;
+    font-weight: normal;
+}
+.primersection{
+    width: 1024px;
+    height: 409px;
+    display: flex;
+    background-image: url(../img/fondoceleste.png);
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.dentro{
+    padding: 20px;
+}
+.a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background-color: white;
+    margin-right:  11px; ;
+    border-radius: 3px;
+}
+.b{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+    margin-right: 74px ;
+}
+.c{
+    background-color: orange;
+    margin-right: 116px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.mediosection{
+    width: 1024px;
+    border: 3px solid red;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.e{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+.f{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+
+
+}
+.abajosection{
+    border: 3px solid green;
+    width: 1024px;
+    height: 312px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.abajodentro{
+   width: 265px;
+   height: 312px;
+   border: 3px solid blue;
+   background-repeat: no-repeat;
+   background-size: contain;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+.jug{
+    font-size: 15px ;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+color:#3C2313; ;
+}
+.precio{
+    color: #F0A83E ;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+.g{
+    background-image: url(../img/chu.png);
+}
+.h{
+    background-image: url(../img/comedero.png);
+}
+.i{
+    background-image: url(../img/Huesito.png);
+}
+.noscontactamos{
+    width: 1024px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h6{
+   width: 143px;
+   height: 29px;
+   font-size: 40px;
+   margin-bottom: 17px ;
+   color: #3C2313; 
+   margin-top: 20px;
+}
+
+.inputcito{
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3C2313;
+    font-size: 9px ;
+    padding-left: 3px;
+    color: #AB9C9C;
+    margin-bottom: 10px;
+}
+.otrosbotones{
+    width: 230px;
+    height: 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px ;
+}
+.resetear{
+    border-radius: 110px;
+    background-color: #8a8787;
+    color: #ffffff;
+    font-size: 16px;
+    width: 199px;
+    height: 45px;
+}
+.enviarse{
+    border-radius: 50px;
+    width: 110px;
+    height: 34px;
+    background-color: #F0A83E;
+    color: #ffffff;
+}
+
+.suscri{
+    width: 1024px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    color: #ffffff;
+    
+}
+.email{
+    width: 261px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+.botoncito{
+    height: 35px;
+    width: 70px;
+    background-color: #3C2313;
+    color: #ffffff;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 18px;
+    margin-right: 47px;
+}
+.span{
+    display: flex;
+    align-items: center;
+    border: springgreen solid 3px;
+    
+    
+}
+h3{
+    display: flex;
+    width: 1024px;
+    height: 284px;
+    background-color: #3C2313;
+    justify-content: space-between;
+}
+.webizquierda{
+    width: 236px;
+    height:284px ;
+    display: flex;
+}
+.imagencita{
+    width: 166px;
+    height: 23px;
+    align-items: ;
+    background-image: url(../img/Logochiquito.png);
+    margin-top: 130px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.marroncito{
+    background-color:#3C2313; 
+    width: 414px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fondito{
+    display: flex;
+    margin-left: 40px;
+    width: 304px;
+    height: 84px;
+    align-items: center;
+    border: red solid 3px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: aliceblue;  
+}
+.cien{
+display: none;
+}
+
+.localidad, .numero, .correo{
+    margin-left: 15px; 
+   
+}
+.calle, .cientocincuenta, .direccion{
+    margin-left: 19px;
+    font-size: 13px;
+    color: #8a8787;
+    margin-bottom: 10px;
+}
+h5{
+    width: 1024px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: #ffffff ;
+}
+@media (max-width:768px){
+    
+    h2{
+    background-color: black;
+    display: none;
+    justify-content: space-between;
+    width: 1024px;
+    height:20px ;
+    align-items: center;
+    }
+.grandes{
+    color: white;
+    font-size: 0.5rem;
+    margin-left:  90px;
+}
+.espa{
+    color: white;
+    font-size: 8px;
+    margin-right: 50px;
+}
+h1{
+    display: flex;
+    background-color: #F0A83E;;
+    width: 414px;
+    height: 62px ;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.logoarriba{
+    width:  166px;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul{
+    display: none;
+    width: 343px;
+    height: 15px;
+}
+.lista {
+    font-size: 13px;
+    margin: 15px 10px 10px 10px;
+    padding: 5px;
+    color: white;
+    font-weight: normal;
+}
+.primersection{
+    width: 414px;
+    height: 440px;
+    display: flex;
+    background-image: url(../img/fondoceleste.png);
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    
+}
+.dentro{
+    padding: 20px;
+}
+.a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background-color: white;
+    margin-right:  11px; ;
+    border-radius: 3px;
+}
+.b{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+    margin-right: 74px ;
+}
+.c{
+    background-color: orange;
+    margin-right: 116px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.mediosection{
+    width: 414px ;
+    border: 3px solid red;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.e{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+    width: 212px;
+}
+.f{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+    width: 271px;
+    margin-left: 30px;
+
+}
+.abajosection{
+    border: 3px solid green;
+    width: 414px;
+    height: 919px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.abajodentro{
+   width: 265px;
+   height: 312px;
+   border: 3px solid blue;
+   background-repeat: no-repeat;
+   background-size: contain;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+.jug{
+    font-size: 15px ;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+color:#3C2313; ;
+}
+.precio{
+    color: #F0A83E ;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+.g{
+    background-image: url(../img/chu.png);
+}
+.h{
+    background-image: url(../img/comedero.png);
+}
+.i{
+    background-image: url(../img/Huesito.png);
+}
+
+.noscontactamos{
+    width: 404px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h6{
+   width: 228px;
+   height: 47px;
+   font-size: 40px;
+   margin-bottom: 17px ;
+   color: #3C2313; 
+   margin-top: 20px;
+}
+
+.inputcito{
+    width: 298px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3C2313;
+    font-size: 9px ;
+    padding-left: 3px;
+    color: #AB9C9C;
+    margin-bottom: 5px;
+}
+.otrosbotones{
+    width: 404px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px ;
+}
+.resetear{
+    border-radius: 50px;
+    background-color: #8a8787;
+    color: #ffffff;
+    font-size: 16px;
+    width: 199px;
+    height: 45px;
+}
+.enviarse{
+    border-radius: 50px;
+    width: 199px;
+    height: 45px;
+    background-color: #F0A83E;
+    color: #ffffff;
+}
+
+.suscri{
+    width: 414px;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F0A83E;
+    color: #ffffff;
+    
+}
+.email{
+    width: 261px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px ;
+    font-style: normal;
+    font-weight: normal;
+        font-size: 10px;
+    line-height: 12px;
+}
+.botoncito{
+    height: 35px;
+    width: 100px;
+    background-color: #3C2313;
+    color: #ffffff;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+.span{
+    display: flex;
+    align-items: center;
+    border: springgreen solid 3px;
+    
+    
+}
+.marroncito{
+    background-color:#3C2313; 
+    width: 414px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fondito{
+    display: flex;
+    margin-left: 40px;
+    width: 304px;
+    height: 84px;
+    align-items: center;
+    border: red solid 3px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: aliceblue;  
+}
+.cien{
+    height: 18px;
+    width: 134px;
+    background-image: url(../img/Logochiquito.png);
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.localidad, .numero, .correo{
+    margin-left: 15px; 
+   
+}
+.calle, .cientocincuenta, .direccion{
+    margin-left: 19px;
+    font-size: 13px;
+    color: #8a8787;
+    margin-bottom: 10px;
+}
+h5{
+    width: 414px;
+    height: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: #ffffff ;
+}
+}
