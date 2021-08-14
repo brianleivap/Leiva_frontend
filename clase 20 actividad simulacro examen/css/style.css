@@ -1,0 +1,614 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+@media (max-width:420px){
+    /* primer reglon arriba de todo*/ 
+    h1{
+        display: flex;
+        background-color:#222222 ;
+        justify-content: space-between;
+        align-items: center;
+        width: 414px ;
+        height: 90px;
+
+    }
+
+    .logoarriba{
+        height: 40px;
+        width: 200px;
+        margin-left: 24px ;
+    }
+    /* esto en mas resolucion va distinto*/
+    .lista{
+        display: none;
+    }
+    .sectionprimero{
+        border: 3px solid red;
+        width:414px ;
+        height: 512px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-image: url(../img/fondosection1.png);
+        background-size: contain;
+        
+    }
+    .texto1{
+        
+        width: 336px;
+        height: 133px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        color: wheat;
+        margin-top: 60px;
+        
+    }
+    .vcporciento{
+        color: red;
+
+    }
+    .botoncomprartexto1{
+        width: 220px;
+        height: 61px;
+        background-color: #d01418;
+        padding-top: 16px;
+        padding-left: 61px ;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        border-radius: 5px ;
+        margin-bottom: 134px;
+    }
+    h3{
+        width: 304px;
+        height: 35px;
+        margin-left: 55px;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        background-color:#F3F3F3;
+        color: #000000;
+
+    }
+    .sectionsegundo{
+        width: 414px;
+        height: 1100px;
+        border: red 3px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        background-color:#F3F3F3;;
+    }
+    .cajon{
+        width: 240px;
+        height: 322px;
+        display: flex;
+        flex-direction: column;
+        border: green 3px solid;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    .cajitaarriba{
+        width: 240px;
+        height:233px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotito{
+        width: 130px;
+        height: 163px;
+        background-size: contain;
+
+    }
+    .fifa{
+        background-image: url(../img/fifa.png);
+    }
+    .mortal{
+        background-image: url(../img/morta;.png);
+    }
+    .detroit{
+        background-image: url(../img/ps41\ 1.png);
+    }
+    .cajitaabajo{
+        width: 240px;
+        height: 99px;
+        padding-left: 20px;
+        padding-top: 21px;
+        padding-bottom: 21px ;
+
+    }
+    .uno{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+    }
+    .dos{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+
+    }
+    .tres{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #619D00;
+
+    }
+    .dentroh4{
+        width: 414px;
+        height: 30px;
+        background-color: #F3F3F3;
+    }
+    h4{
+        background-color:#F3F3F3;
+        font-style: normal;
+        font-weight: normal;
+    font-size: 30px;
+        line-height: 35px;
+        margin-left: 78px;
+        width: 258px;
+        height: 35px;
+        color: #000000;
+    }
+    .grandedelfondo{
+        width: 414px;
+        height: 290px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#F3F3F3;
+    }
+    .sectiontercera{
+        
+        width: 288px;
+        height:  244px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+        justify-content: space-between;
+        background-color: #F3F3F3
+
+    }
+    .estrellas{
+        width: 288px;
+        height: 108px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        border-radius: 10px;
+
+    }
+    .dentroestrellas{
+       
+        margin-right: 25px;
+        color: 
+        #F3F3F3;   
+     
+        border: blue 3px solid;
+    }
+    .sillas{
+        width: 90px;
+        height: 18px;
+        font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+
+
+    color: #F3F3F3;
+    }
+    .computadoras{
+        width: 99px;
+        height: 18px;
+    }
+    .xxxx{
+        background-image: url(../img/banner\ 1.png);
+    }
+    .wwww{
+        background-image: url(../img/bannercompu.png);
+    }
+    h5{
+        display: flex;
+        flex-direction: column;
+        background-color: #222222;
+        justify-content: center;
+        align-items: center;
+        width:414px ;
+        height: 191px;
+    }
+    .logofondo{
+        width: 182px;
+        height: 40px;
+
+    }
+    .rs{
+        width: 168px;
+        height: 81px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .redes{
+        color: #F3F3F3;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .logos{
+        width: 168px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h6{
+        background-color: #C4C4C4;;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        width: 414px;
+        height: 25px;
+        color: #000000;
+
+    }
+}
+@media (min-width: 421px){
+     /* primer reglon arriba de todo*/ 
+    h1{
+        display: flex;
+        background-color:#222222 ;
+        justify-content: space-between;
+        align-items: center;
+        width: 1024px ;
+        height:100px;
+
+    }
+
+    .logoarriba{
+        height: 40px;
+        width: 183px;
+        margin-left: 35px ;
+    }
+    /* esto en mas resolucion va distinto*/
+    .lista{
+        display: flex;
+        width: 336px;
+        height: 24px;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        color: #F3F3F3;
+        font-size: 16px;
+        
+    }
+    .listitamenu{
+        height: 24px;
+    }
+    .unouno{
+        width: 79px;
+        margin-right: 8px;
+    }
+    .dosdos{
+        width:54px ;
+        margin-right: 8px;
+    }
+    .trestres{
+        width: 41px;
+        margin-right: 8px;
+    }
+    .cuatrocuatro{
+        width:67px ;
+        margin-right: 20px;
+    }
+    .cincocinco{
+        width:25px ;
+        height: 24px;
+    }
+    .sectionprimero{
+        border: 3px solid red;
+        width:1024px ;
+        height: 512px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-image: url(../img/fondosectiongrande.png);
+        background-size: contain;
+        
+    }
+    .texto1{
+        
+        width: 808px;
+        height: 47px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        color: wheat;
+        margin-top: 187px;
+        
+    }
+    .vcporciento{
+        color: red;
+
+    }
+    .botoncomprartexto1{
+        width: 220px;
+        height: 61px;
+        background-color: #d01418;
+        padding-top: 16px;
+        padding-left: 61px ;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        border-radius: 5px ;
+        margin-bottom: 167px;
+    }
+    h3{
+        width: 304px;
+        height: 35px;
+        margin-left: 359px;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        background-color:#F3F3F3;
+        color: #000000;
+
+    }
+    .sectionsegundo{
+        width: 855px;
+        height:  340px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        align-items: center;
+        background-color:#F3F3F3;
+        margin-left: 95px;
+    }
+    .cajon{
+        width: 265px;
+        height: 322px;
+        display: flex;
+        flex-direction: column;
+        
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .cajitaarriba{
+        width: 240px;
+        height:233px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotito{
+        width: 130px;
+        height: 163px;
+        background-size: contain;
+
+    }
+    .fifa{
+        background-image: url(../img/fifa.png);
+    }
+    .mortal{
+        background-image: url(../img/morta;.png);
+    }
+    .detroit{
+        background-image: url(../img/ps41\ 1.png);
+    }
+    .cajitaabajo{
+        width: 240px;
+        height: 99px;
+        padding-left: 20px;
+        padding-top: 21px;
+        padding-bottom: 21px ;
+
+    }
+    .uno{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+    }
+    .dos{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+
+    }
+    .tres{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #619D00;
+
+    }
+    .dentroh4{
+        width: 1024px;
+        height: 35px;
+        background-color: #F3F3F3;
+    }
+    h4{
+        background-color:#F3F3F3;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        margin-left: 383px;
+        width: 258px;
+        height: 35px;
+        color: #000000;
+    }
+    .grandedelfondo{
+        width: 1024px;
+        height: 290px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#F3F3F3;
+    }
+    .sectiontercera{
+        
+        width: 834px;
+        height:  190px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      
+        justify-content: space-between;
+        background-color: #F3F3F3
+
+    }
+    .estrellas{
+        width: 361px;
+        height: 135px;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        border-radius: 10px;
+
+    }
+    .dentroestrellas{
+       
+        margin-right: 25px;
+        color: 
+        #F3F3F3;   
+     
+        border: blue 3px solid;
+    }
+    .sillas{
+        width: 90px;
+        height: 18px;
+        font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+
+
+    color: #F3F3F3;
+    }
+    .computadoras{
+        width: 99px;
+        height: 18px;
+    }
+    .xxxx{
+        background-image: url(../img/banner\ 1.png);
+    }
+    .wwww{
+        background-image: url(../img/bannercompu.png);
+    }
+    h5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #222222;
+        padding: 0 75px 0 75px;
+        align-items: center;
+        width:1024px ;
+        height: 191px;
+    }
+    .logofondo{
+        width: 182px;
+        height: 40px;
+
+    }
+    .rs{
+        width: 168px;
+        height: 81px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .redes{
+        color: #F3F3F3;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .logos{
+        width: 168px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h6{
+        background-color: #C4C4C4;;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        width: 1024px;
+        height: 25px;
+        color: #000000;
+
+    }
+    body{
+        background-color:#F3F3F3;
+    }
+}
